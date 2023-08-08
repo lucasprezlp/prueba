@@ -25,9 +25,14 @@ public class LuisZamudio {
     public void setId(int id) {
         this.id = id;
     }
-    
+
+    @Override
+    public String toString() {
+        return "LuisZamudio{" + "nombre=" + nombre + ", id=" + id + '}';
+    }
+
     public void mostrarNOmbre(){
         System.out.println("El nombre es: " + nombre);
     }
-     
+    
 }
